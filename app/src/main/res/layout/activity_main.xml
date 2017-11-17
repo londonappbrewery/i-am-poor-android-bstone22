@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimaryDark"
     tools:context="com.londonappbrewery.iampoor.MainActivity">
 
     <ImageView
@@ -16,6 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name"
         app:srcCompat="@drawable/coal" />
 
     <TextView
@@ -26,6 +28,7 @@
         android:layout_alignParentLeft="false"
         android:layout_centerHorizontal="true"
         android:layout_centerInParent="false"
+        android:textColor="@color/Black"
         android:text="@string/title"
         android:textSize="50sp" />
 </RelativeLayout>
